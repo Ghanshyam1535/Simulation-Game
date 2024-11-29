@@ -1,0 +1,9 @@
+#
+#  buoy.mtl
+#
+
+newmtl buoy
+illum 1
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+map_Kd buoy.bmp

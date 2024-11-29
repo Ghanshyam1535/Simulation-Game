@@ -1,0 +1,42 @@
+newmtl clownfish
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+illum 0
+map_Kd clownfish.bmp
+
+newmtl dolphinfish
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+illum 0
+map_Kd dolphinfish.bmp
+
+newmtl freshwater-drum
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+illum 0
+map_Kd freshwater-drum.bmp
+
+newmtl moonfish
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+illum 0
+map_Kd moonfish.bmp
+
+newmtl salmon
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+illum 0
+map_Kd salmon.bmp
+
+newmtl sturgeon
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+illum 0
+map_Kd sturgeon.bmp
+
+newmtl yellow-tang
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+illum 0
+map_Kd yellow-tang.bmp
+

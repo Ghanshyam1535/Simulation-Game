@@ -1,0 +1,352 @@
+#terrain map
+#t	x_off	y_off	z_off	x_size	y_size	z_size	filename
+t	-64	-30	-64	128	45	128	heightmap.bmp
+
+#player start
+#p	x_pos	y_pos	z_pos	x_forw	y_forw	z_forw	x_up	y_up	z_up
+p	-36	-1	-5	1	0	0	0	1	0
+
+#spherical world object
+#s	x	y	z	radius	filename
+s	-32	-2	-10	1.5	rock.obj
+
+#cylinder world object
+#c	x1	y1	z1	x2	y2	z2	radius	filename
+c	6	-2	-40	2	-5	-24	1.5	tunnel.obj
+
+#fish school
+#f	x	y	z	radius	count	maxdist	filename
+f	-32	-2	1	0.8	100	5.0	anchovy.obj
+
+
+
+# ends of big pipe (for testing alignment)
+s	6	-2	-40	1.6	pipe-cap.obj
+s	2	-5	-24	1.6	pipe-cap.obj
+
+
+# circle of buoys
+#  centered on (35, 0, -15)
+s	39	0	-13	0.2	buoy.obj
+s	37	0	-11	0.2	buoy.obj
+s	33	0	-11	0.2	buoy.obj
+s	31	0	-13	0.2	buoy.obj
+s	31	0	-17	0.2	buoy.obj
+s	33	0	-19	0.2	buoy.obj
+s	37	0	-19	0.2	buoy.obj
+s	39	0	-17	0.2	buoy.obj
+
+f	35	-3	-15	5.0	2	5.0	moonfish.obj
+
+
+# lattice
+s	-6	-8	1	0.25	pipe-cap.obj
+s	-6	-8	3	0.25	pipe-cap.obj
+s	-6	-8	5	0.25	pipe-cap.obj
+s	-6	-8	7	0.25	pipe-cap.obj
+s	-6	-8	9	0.25	pipe-cap.obj
+s	-8	-8	1	0.25	pipe-cap.obj
+s	-8	-8	3	0.25	pipe-cap.obj
+s	-8	-8	5	0.25	pipe-cap.obj
+s	-8	-8	7	0.25	pipe-cap.obj
+s	-8	-8	9	0.25	pipe-cap.obj
+s	-10	-8	1	0.25	pipe-cap.obj
+s	-10	-8	3	0.25	pipe-cap.obj
+s	-10	-8	5	0.25	pipe-cap.obj
+s	-10	-8	7	0.25	pipe-cap.obj
+s	-10	-8	9	0.25	pipe-cap.obj
+s	-12	-8	1	0.25	pipe-cap.obj
+s	-12	-8	3	0.25	pipe-cap.obj
+s	-12	-8	5	0.25	pipe-cap.obj
+s	-12	-8	7	0.25	pipe-cap.obj
+s	-12	-8	9	0.25	pipe-cap.obj
+
+s	-6	-6	1	0.25	pipe-cap.obj
+s	-6	-6	3	0.25	pipe-cap.obj
+s	-6	-6	5	0.25	pipe-cap.obj
+s	-6	-6	7	0.25	pipe-cap.obj
+s	-6	-6	9	0.25	pipe-cap.obj
+s	-8	-6	1	0.25	pipe-cap.obj
+s	-8	-6	3	0.25	pipe-cap.obj
+s	-8	-6	5	0.25	pipe-cap.obj
+s	-8	-6	7	0.25	pipe-cap.obj
+s	-8	-6	9	0.25	pipe-cap.obj
+s	-10	-6	1	0.25	pipe-cap.obj
+s	-10	-6	3	0.25	pipe-cap.obj
+s	-10	-6	5	0.25	pipe-cap.obj
+s	-10	-6	7	0.25	pipe-cap.obj
+s	-10	-6	9	0.25	pipe-cap.obj
+s	-12	-6	1	0.25	pipe-cap.obj
+s	-12	-6	3	0.25	pipe-cap.obj
+s	-12	-6	5	0.25	pipe-cap.obj
+s	-12	-6	7	0.25	pipe-cap.obj
+s	-12	-6	9	0.25	pipe-cap.obj
+
+s	-6	-4	1	0.25	pipe-cap.obj
+s	-6	-4	3	0.25	pipe-cap.obj
+s	-6	-4	5	0.25	pipe-cap.obj
+s	-6	-4	7	0.25	pipe-cap.obj
+s	-6	-4	9	0.25	pipe-cap.obj
+s	-8	-4	1	0.25	pipe-cap.obj
+s	-8	-4	3	0.25	pipe-cap.obj
+s	-8	-4	5	0.25	pipe-cap.obj
+s	-8	-4	7	0.25	pipe-cap.obj
+s	-8	-4	9	0.25	pipe-cap.obj
+s	-10	-4	1	0.25	pipe-cap.obj
+s	-10	-4	3	0.25	pipe-cap.obj
+s	-10	-4	5	0.25	pipe-cap.obj
+s	-10	-4	7	0.25	pipe-cap.obj
+s	-10	-4	9	0.25	pipe-cap.obj
+s	-12	-4	1	0.25	pipe-cap.obj
+s	-12	-4	3	0.25	pipe-cap.obj
+s	-12	-4	5	0.25	pipe-cap.obj
+s	-12	-4	7	0.25	pipe-cap.obj
+s	-12	-4	9	0.25	pipe-cap.obj
+
+c	-6	-20	1	-6	-4	1	0.15	pipe8.obj
+c	-6	-20	3	-6	-4	3	0.15	pipe8.obj
+c	-6	-20	5	-6	-4	5	0.15	pipe8.obj
+c	-6	-20	7	-6	-4	7	0.15	pipe8.obj
+c	-6	-20	9	-6	-4	9	0.15	pipe8.obj
+c	-8	-20	1	-8	-4	1	0.15	pipe8.obj
+c	-8	-20	3	-8	-4	3	0.15	pipe8.obj
+c	-8	-20	5	-8	-4	5	0.15	pipe8.obj
+c	-8	-20	7	-8	-4	7	0.15	pipe8.obj
+c	-8	-20	9	-8	-4	9	0.15	pipe8.obj
+c	-10	-20	1	-10	-4	1	0.15	pipe8.obj
+c	-10	-20	3	-10	-4	3	0.15	pipe8.obj
+c	-10	-20	5	-10	-4	5	0.15	pipe8.obj
+c	-10	-20	7	-10	-4	7	0.15	pipe8.obj
+c	-10	-20	9	-10	-4	9	0.15	pipe8.obj
+c	-12	-20	1	-12	-4	1	0.15	pipe8.obj
+c	-12	-20	3	-12	-4	3	0.15	pipe8.obj
+c	-12	-20	5	-12	-4	5	0.15	pipe8.obj
+c	-12	-20	7	-12	-4	7	0.15	pipe8.obj
+c	-12	-20	9	-12	-4	9	0.15	pipe8.obj
+
+c	-6	-8	1	-12	-8	1	0.15	pipe3.obj
+c	-6	-8	3	-12	-8	3	0.15	pipe3.obj
+c	-6	-8	5	-12	-8	5	0.15	pipe3.obj
+c	-6	-8	7	-12	-8	7	0.15	pipe3.obj
+c	-6	-8	9	-12	-8	9	0.15	pipe3.obj
+c	-6	-6	1	-12	-6	1	0.15	pipe3.obj
+c	-6	-6	3	-12	-6	3	0.15	pipe3.obj
+c	-6	-6	5	-12	-6	5	0.15	pipe3.obj
+c	-6	-6	7	-12	-6	7	0.15	pipe3.obj
+c	-6	-6	9	-12	-6	9	0.15	pipe3.obj
+c	-6	-4	1	-12	-4	1	0.15	pipe3.obj
+c	-6	-4	3	-12	-4	3	0.15	pipe3.obj
+c	-6	-4	5	-12	-4	5	0.15	pipe3.obj
+c	-6	-4	7	-12	-4	7	0.15	pipe3.obj
+c	-6	-4	9	-12	-4	9	0.15	pipe3.obj
+
+c	-6	-8	1	-6	-8	9	0.15	pipe5.obj
+c	-8	-8	1	-8	-8	9	0.15	pipe5.obj
+c	-10	-8	1	-10	-8	9	0.15	pipe5.obj
+c	-12	-8	1	-12	-8	9	0.15	pipe5.obj
+c	-6	-6	1	-6	-6	9	0.15	pipe5.obj
+c	-8	-6	1	-8	-6	9	0.15	pipe5.obj
+c	-10	-6	1	-10	-6	9	0.15	pipe5.obj
+c	-12	-6	1	-12	-6	9	0.15	pipe5.obj
+c	-6	-4	1	-6	-4	9	0.15	pipe5.obj
+c	-8	-4	1	-8	-4	9	0.15	pipe5.obj
+c	-10	-4	1	-10	-4	9	0.15	pipe5.obj
+c	-12	-4	1	-12	-4	9	0.15	pipe5.obj
+
+f	-8	-6	5	4	10	3.0	salmon.obj
+
+
+# laboratory on pole (for fish collision checking vs. spheres)
+s	12	-10	20	4.0	laboratory.obj
+c	12	-13	20	12	-21	20	0.8	pipe1.obj
+f	12	-10	20	5.0	30	1.0	freshwater-drum.obj
+
+
+# pole with supports
+c	-38	-10	7	-38	3	7	0.2	pipe8.obj
+s	-38	3	7	0.25	pipe-cap.obj
+c	-50	-10	7	-38	2	7	0.15	pipe12.obj
+c	-26	-10	7	-38	2	7	0.15	pipe12.obj
+c	-38	-10	-5	-38	2	7	0.15	pipe12.obj
+c	-38	-10	19	-38	2	7	0.15	pipe12.obj
+c	-43	-10	2	-38	-3	7	0.15	pipe8.obj
+c	-43	-10	12	-38	-3	7	0.15	pipe8.obj
+c	-33	-10	12	-38	-3	7	0.15	pipe8.obj
+c	-33	-10	2	-38	-3	7	0.15	pipe8.obj
+c	-41	-10	7	-38	-7	7	0.15	pipe3.obj
+c	-35	-10	7	-38	-7	7	0.15	pipe3.obj
+c	-38	-10	4	-38	-7	7	0.15	pipe3.obj
+c	-38	-10	10	-38	-7	7	0.15	pipe3.obj
+
+
+# corkscrew
+s	-22	-10	-11	0.6	pipe-cap.obj
+s	-22	-9	-13	0.6	pipe-cap.obj
+s	-24	-8.5	-13	0.6	pipe-cap.obj
+s	-25	-8	-11	0.6	pipe-cap.obj
+s	-24	-7.5	-9	0.6	pipe-cap.obj
+s	-22	-7	-8	0.6	pipe-cap.obj
+s	-20	-6.5	-9	0.6	pipe-cap.obj
+s	-19	-6	-11	0.6	pipe-cap.obj
+s	-20	-5.5	-13	0.6	pipe-cap.obj
+s	-22	-5	-14	0.6	pipe-cap.obj
+s	-24	-4.5	-13	0.6	pipe-cap.obj
+s	-25	-4	-11	0.6	pipe-cap.obj
+s	-24	-3.5	-9	0.6	pipe-cap.obj
+s	-22	-3	-8	0.6	pipe-cap.obj
+s	-20	-2.5	-9	0.6	pipe-cap.obj
+s	-19	-2	-11	0.6	pipe-cap.obj
+s	-20	-1.5	-13	0.6	pipe-cap.obj
+s	-22	-1	-14	0.6	pipe-cap.obj
+
+c	-22	-15	-11	-22	-10	-11	0.5	pipe1.obj
+c	-22	-10	-11	-22	-9	-13	0.5	pipe0_5.obj
+c	-22	-9	-13	-24	-8.5	-13	0.5	pipe0_5.obj
+c	-24	-8.5	-13	-25	-8	-11	0.5	pipe0_5.obj
+c	-25	-8	-11	-24	-7.5	-9	0.5	pipe0_5.obj
+c	-24	-7.5	-9	-22	-7	-8	0.5	pipe0_5.obj
+c	-22	-7	-8	-20	-6.5	-9	0.5	pipe0_5.obj
+c	-20	-6.5	-9	-19	-6	-11	0.5	pipe0_5.obj
+c	-19	-6	-11	-20	-5.5	-13	0.5	pipe0_5.obj
+c	-20	-5.5	-13	-22	-5	-14	0.5	pipe0_5.obj
+c	-22	-5	-14	-24	-4.5	-13	0.5	pipe0_5.obj
+c	-24	-4.5	-13	-25	-4	-11	0.5	pipe0_5.obj
+c	-25	-4	-11	-24	-3.5	-9	0.5	pipe0_5.obj
+c	-24	-3.5	-9	-22	-3	-8	0.5	pipe0_5.obj
+c	-22	-3	-8	-20	-2.5	-9	0.5	pipe0_5.obj
+c	-20	-2.5	-9	-19	-2	-11	0.5	pipe0_5.obj
+c	-19	-2	-11	-20	-1.5	-13	0.5	pipe0_5.obj
+c	-20	-1.5	-13	-22	-1	-14	0.5	pipe0_5.obj
+
+
+# arch
+s	12	-1	4	0.3	pipe-cap.obj
+s	12	-1	9	0.3	pipe-cap.obj
+c	12	-1	4	12	-1	9	0.25	pipe2.obj
+
+s	10	-2	4	0.3	pipe-cap.obj
+s	10	-2	9	0.3	pipe-cap.obj
+c	10	-2	4	10	-2	9	0.25	pipe2.obj
+s	14	-2	4	0.3	pipe-cap.obj
+s	14	-2	9	0.3	pipe-cap.obj
+c	14	-2	4	14	-2	9	0.25	pipe2.obj
+
+s	9	-4	4	0.3	pipe-cap.obj
+s	9	-4	9	0.3	pipe-cap.obj
+c	9	-4	4	9	-4	9	0.25	pipe2.obj
+s	15	-4	4	0.3	pipe-cap.obj
+s	15	-4	9	0.3	pipe-cap.obj
+c	15	-4	4	15	-4	9	0.25	pipe2.obj
+
+s	9	-6.5	4	0.3	pipe-cap.obj
+s	9	-6.5	9	0.3	pipe-cap.obj
+c	9	-6.5	4	9	-6.5	9	0.25	pipe2.obj
+s	15	-6.5	4	0.3	pipe-cap.obj
+s	15	-6.5	9	0.3	pipe-cap.obj
+c	15	-6.5	4	15	-6.5	9	0.25	pipe2.obj
+
+s	9	-9	4	0.3	pipe-cap.obj
+s	9	-9	9	0.3	pipe-cap.obj
+c	9	-9	4	9	-9	9	0.25	pipe2.obj
+s	15	-9	4	0.3	pipe-cap.obj
+s	15	-9	9	0.3	pipe-cap.obj
+c	15	-9	4	15	-9	9	0.25	pipe2.obj
+
+c	12	-1	4	10	-2	4	0.25	pipe1.obj
+c	12	-1	9	10	-2	9	0.25	pipe1.obj
+c	12	-1	4	14	-2	4	0.25	pipe1.obj
+c	12	-1	9	14	-2	9	0.25	pipe1.obj
+
+c	10	-2	4	9	-4	4	0.25	pipe1.obj
+c	10	-2	9	9	-4	9	0.25	pipe1.obj
+c	14	-2	4	15	-4	4	0.25	pipe1.obj
+c	14	-2	9	15	-4	9	0.25	pipe1.obj
+
+c	9	-4	4	9	-13	4	0.25	pipe3.obj
+c	9	-4	9	9	-13	9	0.25	pipe3.obj
+c	15	-4	4	15	-13	4	0.25	pipe3.obj
+c	15	-4	9	15	-13	9	0.25	pipe3.obj
+
+
+# cave
+s	-22	-15	18	1.8	rock.obj
+s	-25	-14	19	2.1	rock.obj
+s	-28	-15	18	1.9	rock.obj
+s	-22	-16	20	2.2	rock.obj
+s	-25	-15	21	2.4	rock.obj
+s	-28	-16	20	2.3	rock.obj
+s	-23	-18.5	20.5	1.6	rock.obj
+s	-27	-18.5	20.5	1.5	rock.obj
+s	-25	-18	22	2.3	rock.obj
+s	-21	-15	21	2.6	rock.obj
+s	-24	-14.5	23	1.7	rock.obj
+s	-26	-14.5	23	1.8	rock.obj
+s	-29	-15	21	2.5	rock.obj
+
+s	-24.7	-18.4	19.55	0.3	treasure_chest.obj
+
+
+# rocks in bay
+s	42	-1.2	20	1.4	rock.obj
+s	47	-0.8	22	1.5	rock.obj
+s	45	-1.4	16	1.6	rock.obj
+s	42	-2.0	25	1.7	rock.obj
+s	48	-1.6	18	1.8	rock.obj
+
+s	41	-2.1	10	1.4	rock.obj
+s	47	-1.3	9	1.5	rock.obj
+s	49	-1.9	6	1.6	rock.obj
+s	49	-1.5	12	1.7	rock.obj
+s	51	-1.8	2	1.8	rock.obj
+s	52	-0.5	-2	1.2	rock.obj
+
+
+# anenomies and clownfish
+s	24.2	-10.9	10.4	0.15	anemone.obj
+f	24.2	-10.9	10.4	0.3	1	0.3	clownfish.obj
+s	25.6	-11	13.4	0.15	anemone.obj
+f	25.6	-11	13.4	0.3	1	0.3	clownfish.obj
+s	26.2	-10.2	11	0.15	anemone.obj
+f	26.2	-10.2	11	0.3	1	0.3	clownfish.obj
+s	28.8	-10.7	9.7	0.15	anemone.obj
+f	28.8	-10.7	9.7	0.3	1	0.3	clownfish.obj
+s	28.5	-10.4	7.9	0.15	anemone.obj
+f	28.5	-10.4	7.9	0.3	1	0.3	clownfish.obj
+
+s	30.3	-10.7	6.2	0.15	anemone.obj
+f	30.3	-10.7	6.2	0.3	1	0.3	clownfish.obj
+s	32.5	-9.5	5.6	0.15	anemone.obj
+f	32.5	-9.5	5.6	0.3	1	0.3	clownfish.obj
+
+s	29.2	-9.45	-0.9	0.15	anemone.obj
+f	29.2	-9.45	-0.9	0.3	1	0.3	clownfish.obj
+s	25.7	-8.3	-1.0	0.15	anemone.obj
+f	25.7	-8.3	-1.0	0.3	1	0.3	clownfish.obj
+s	23.9	-11.6	5.3	0.15	anemone.obj
+f	23.9	-11.6	5.3	0.3	1	0.3	clownfish.obj
+
+
+# fish in bay
+f	45	-2	45	3.0	10	8.0	rainbow_trout.obj
+f	40	-2	24	3.0	10	8.0	rainbow_trout.obj
+f	30	-2	35	3.0	10	8.0	rainbow_trout.obj
+f	45	-2	16	3.0	10	8.0	rainbow_trout.obj
+f	45	-2	5	3.0	10	8.0	rainbow_trout.obj
+f	35	-2	45	3.0	10	8.0	rainbow_trout.obj
+f	45	-2	30	3.0	10	8.0	rainbow_trout.obj
+
+
+# other fish
+f	30	-10	-40	3.0	4	20.0	dolphinfish.obj
+f	-8	-16	-35	3.0	4	20.0	dolphinfish.obj
+f	6	-8	40	5.0	7	20.0	sturgeon.obj
+
+
+# hard-to-reach fish
+f	-25	-1	45	1.0	25	3.0	yellow-tang.obj
+f	-35	-1	34	1.0	40	3.0	yellow-tang.obj
+#f	5	-2	-50	1.0	12	3.0	yellow-tang.obj
+#f	-45	-2	-53	1.0	10	3.0	yellow-tang.obj
+
+
+

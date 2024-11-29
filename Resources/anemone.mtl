@@ -1,0 +1,9 @@
+#
+#  anemone.mtl
+#
+
+newmtl anemone
+illum 0
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+map_Kd anemone.bmp
